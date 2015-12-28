@@ -14,6 +14,10 @@
 		18011E561C31311D002C52FF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18011E551C31311D002C52FF /* Images.xcassets */; };
 		18011E591C31311D002C52FF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18011E571C31311D002C52FF /* LaunchScreen.xib */; };
 		18011E651C31311D002C52FF /* starFieldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18011E641C31311D002C52FF /* starFieldTests.m */; };
+		18011E721C313147002C52FF /* brown.png in Resources */ = {isa = PBXBuildFile; fileRef = 18011E6E1C313147002C52FF /* brown.png */; };
+		18011E731C313147002C52FF /* green.png in Resources */ = {isa = PBXBuildFile; fileRef = 18011E6F1C313147002C52FF /* green.png */; };
+		18011E741C313147002C52FF /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = 18011E701C313147002C52FF /* red.png */; };
+		18011E751C313147002C52FF /* violet.png in Resources */ = {isa = PBXBuildFile; fileRef = 18011E711C313147002C52FF /* violet.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,10 @@
 		18011E5E1C31311D002C52FF /* starFieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = starFieldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18011E631C31311D002C52FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18011E641C31311D002C52FF /* starFieldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = starFieldTests.m; sourceTree = "<group>"; };
+		18011E6E1C313147002C52FF /* brown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = brown.png; path = Stars/brown.png; sourceTree = SOURCE_ROOT; };
+		18011E6F1C313147002C52FF /* green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = green.png; path = Stars/green.png; sourceTree = SOURCE_ROOT; };
+		18011E701C313147002C52FF /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = red.png; path = Stars/red.png; sourceTree = SOURCE_ROOT; };
+		18011E711C313147002C52FF /* violet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = violet.png; path = Stars/violet.png; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +104,10 @@
 		18011E481C31311D002C52FF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				18011E6E1C313147002C52FF /* brown.png */,
+				18011E6F1C313147002C52FF /* green.png */,
+				18011E701C313147002C52FF /* red.png */,
+				18011E711C313147002C52FF /* violet.png */,
 				18011E491C31311D002C52FF /* Info.plist */,
 				18011E4A1C31311D002C52FF /* main.m */,
 			);
@@ -199,7 +211,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18011E721C313147002C52FF /* brown.png in Resources */,
 				18011E541C31311D002C52FF /* Main.storyboard in Resources */,
+				18011E731C313147002C52FF /* green.png in Resources */,
+				18011E741C313147002C52FF /* red.png in Resources */,
+				18011E751C313147002C52FF /* violet.png in Resources */,
 				18011E591C31311D002C52FF /* LaunchScreen.xib in Resources */,
 				18011E561C31311D002C52FF /* Images.xcassets in Resources */,
 			);
